@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz App</title>
+</head>
+<body>
+    <div class="hero">
+        <div class="arrow-down"><i class="fa-solid fa-angles-down"></i></div>
+        <header>
+            <h1 class="main-title"><span class="purple-span">Q</span>uizzy <span class="purple-span jump-span">!</span></h1>
+        </header>
+        <div class="accueil">
+            <div class="carrousel-welcome">
+                <div class="container c-welcome">
+                    <p class="welcome-text">Montrez qui est le meilleur</p>
+                    <p class="welcome-text">Mesurez-vous aux autres</p>
+                    <p class="welcome-text">Testez votre culture générale</p>
+                    <p class="welcome-text">Soyez premier partout</p>
+                    <p class="welcome-text">Montrez qui est le meilleur</p>
+                </div>
+            </div>
+            <div class="section-w">
+                <div class="container bienvenue">
+                    <div class="blur"></div>
+                    <div class="separator"></div>
+                    <div class="content-left">
+                        <h1><span class="purple-span">B</span>ienvenue sur notre application de <span class="purple-span">Q</span>uizz <span class="purple-span">!</span></h1>
+                        <div class="carrousel-theme">
+                            <div class="slide-theme">
+                                <p class="theme-text">Histoire</p>
+                            </div>
+                            <div class="slide-theme ">
+                                <p class="theme-text">Philosophie</p>
+                            </div>
+                            <div class="slide-theme">
+                                <p class="theme-text">Sciences</p>
+                            </div>
+                            <div class="slide-theme">
+                                <p class="theme-text">Littérature</p>
+                            </div>
+                            <div class="slide-theme">
+                                <p class="theme-text">Sport</p>
+                            </div>
+                            <div class="slide-theme">
+                                <p class="theme-text">Art</p>
+                            </div>
+                            
+                            <a class="prev" id="prev">&#10094;</a>
+                            <a class="next" id="next">&#10095;</a>
+                            <div class="dot-container">
+                                <span class="dot" onclick="goSlide(0)"></span>
+                                <span class="dot" onclick="goSlide(1)"></span>
+                                <span class="dot" onclick="goSlide(2)"></span>
+                                <span class="dot" onclick="goSlide(3)"></span>
+                                <span class="dot" onclick="goSlide(4)"></span>
+                                <span class="dot" onclick="goSlide(5)"></span>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="content-right">
+                        <div class="img-right" id="img-right"><div class="blur"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+    <script src="/script.js"></script>
+</body>
+</html>
