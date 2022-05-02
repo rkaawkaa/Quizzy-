@@ -512,3 +512,335 @@ footer {
       transform: translateY(-7px);
     }
   }
+
+
+
+
+/* Themes style */
+
+
+.tme-container {
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.tme-main { 
+    height: 82vh;  
+}
+
+
+.tme-title {
+    color: whitesmoke;
+    padding-top: calc(10px + 3vh);
+    text-align: center;
+    font-size: 3.1rem;
+    font-weight: bold;
+}
+
+.tme-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.tme-box {
+    margin-bottom : 100px;
+    width: 500px;
+    height: 500px;
+    max-width: 90%;
+    max-height: auto;
+    background: rgba(255,255,255,0.95);
+    box-shadow: 3px 3px 12px 7px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.tme-btn-new {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 1.2rem 2.6rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    background-color: rgb(129, 17, 177);
+    color:white;
+    transition: all .3s ease-in-out;
+    border: none;
+    border-radius: 10px;
+    z-index:2;
+    cursor:pointer;
+}
+
+
+.tme-btn-new:focus, .tme-btn-new:hover {
+    
+    background-color: rgb(97, 9, 134);
+    
+}
+.tme-box-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+   
+}
+
+.chrono {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid var(--primary-color);
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color:var(--primary-color);
+}
+
+
+.tme-questions {
+    padding: 20px 15px;
+    
+    
+}
+
+.tme-question {
+    font-size: 2.2rem;
+    font-family: 'Roboto', sans-serif;
+    margin: 2rem 0;
+  
+}
+
+.tme-questions ul {
+    list-style-type: none;
+    padding: 0;
+    position :relative;
+    z-index: 3;
+    
+    
+   
+}
+
+.tme-questions ul li {
+    font-size: 1.5rem;
+    margin: 2.2rem 0;
+       
+}
+.tme-questions ul li label {
+    cursor:pointer;
+    padding: 5px;
+}
+
+.tme-questions ul li label:hover {
+    font-weight: bold;
+}
+
+
+.tme-questions input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -3px;
+    position: relative;
+    background-color: #e1f7e1f8;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid var(--primary-color);
+    cursor:pointer;
+}
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -3px;
+    position: relative;
+    background-color: var(--primary-color);
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid var(--primary-color);
+}
+
+.tme-btn-submit {
+    position: absolute;
+    display: block;
+    width: 100%;
+    left: 0;
+    border: none;
+    bottom: 0;
+    height: 60px;
+    background-color: var(--primary-color);
+    color:white;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    font-weight: bold;
+    letter-spacing: .05rem;
+    z-index: 2;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.tme-btn-submit:focus, .tme-btn-submit:hover {
+    background-color: rgb(97, 9, 134);
+}
+
+
+
+
+/* section answer */
+
+
+.tme-correct, .tme-finalmessage {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+
+.tme-correct-text {
+    font-size: 1.8rem;
+}
+
+
+
+/* section final */
+.tme-finalbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tme-finalmessage {
+    font-size: 2.6rem;
+    font-weight: bold;
+}
+.tme-finalimage {
+    width: 80%;
+    height: 80%;
+    max-width: 300px;
+    max-height: 300px;
+    background: url('https://images.unsplash.com/photo-1605811784653-ee4e230bd981?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/*theme definir image et blur :*/
+
+/*Histoire*/
+.tme-main-histoire {
+    background: url('https://images.unsplash.com/photo-1605811784653-ee4e230bd981?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.tme-main-histoire::after {
+    content:'';
+    position: absolute;
+    top:0;
+    z-index: 1;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 222, 0, 0.1);
+}
+/*Philosophie*/
+.tme-main-philosophie {
+    background: url('https://images.unsplash.com/photo-1505664194779-8beaceb93744?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.tme-main-philosophie::after {
+    content:'';
+    position: absolute;
+    top:0;
+    z-index: 1;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(245, 245, 220, 0.2);
+}
+/*Sciences*/
+.tme-main-sciences {
+    background: url('https://images.unsplash.com/photo-1507413245164-6160d8298b31?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.tme-main-sciences::after {
+    content:'';
+    position: absolute;
+    top:0;
+    z-index: 1;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(167, 31, 139, 0.2);
+}
+/*Littérature*/
+.tme-main-litterature {
+    background: url('https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1590&q=80');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.tme-main-litterature::after {
+    content:'';
+    position: absolute;
+    top:0;
+    z-index: 1;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(200, 173, 127, 0.2);
+}
+/*Sport*/
+.tme-main-sport {
+    background: url('https://images.unsplash.com/photo-1530549387789-4c1017266635?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.tme-main-sport::after {
+    content:'';
+    position: absolute;
+    top:0;
+    z-index: 1;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(96, 124, 202, 0.3)
+}
+/*Art*/
+.tme-main-art {
+    background: url('https://images.unsplash.com/photo-1499781350541-7783f6c6a0c8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1245&q=80');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.tme-main-art::after {
+    content:'';
+    position: absolute;
+    top:0;
+    z-index: 1;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,140,0,0.2)
+}

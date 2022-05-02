@@ -25,36 +25,42 @@ const arrowDown = document.getElementsByClassName("arrow-down")[0];
 const backgroundData = [
   {
     theme: "Histoire",
+    page: "histoire.html",
     alt: "Soldats en campagne.",
     description:"Mesurez vos connaissances en histoire en repondant à des questions sur les guerres, les grandes récessions économiques ou encore sur les grandes figures historiques !",
     bgwelcome: 'https://images.unsplash.com/photo-1605811784653-ee4e230bd981?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80',
   },
   {
     theme: "Philosophie",
+    page: "philosophie.html",
     alt: "Bustes de différents philosophes.",
     description:"Connaissez-vous vraiment la philosophie française, allemande ou encore celle de la Grèce antique sur le bout des doigts ?",
     bgwelcome: 'https://images.unsplash.com/photo-1505664194779-8beaceb93744?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
   },
   {
     theme: "Sciences",
+    page: "sciences.html",
     alt: "Energie et éléctricité",
     description:"Souvenez-vous de vos cours de lycées ! Physique, biologie, chimie, tout y passera !",
     bgwelcome: 'https://images.unsplash.com/photo-1507413245164-6160d8298b31?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
   },
   {
     theme: "Littérature",
+    page: "litterature.html",
     alt: "Librairie contenant des centaiens de livres.",
     description:"Flaubert, Proust, Dostoïevsky : savez-vous vraiment ce que ces génies de la littérature ont écrits ?",
     bgwelcome: 'https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1590&q=80',
   },
   {
     theme: "Sport",
+    page: "sport.html",
     alt: "Homme nageant le papillon.",
     description:"Coupe du monde de football, JO, Rolland Garros: montrez-nous vos connaissances sportives !",
     bgwelcome: 'https://images.unsplash.com/photo-1530549387789-4c1017266635?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
   },
   {
     theme:"Art",
+    page: "art.html",
     alt: "Fresque murale representant une femme",
     description:"\"L'art ne fait pas qu'illustrer, il fait vivre\" disait Nicolas ROBERT. Essayez-vous à notre quizz sur l'art !",
     bgwelcome: 'https://images.unsplash.com/photo-1499781350541-7783f6c6a0c8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1245&q=80',
@@ -207,4 +213,10 @@ function showThemes() {
 }
 
 
+const cards = document.querySelectorAll('.card');
+cards.forEach((card, index) =>  {
+  card.addEventListener('click',() => {
+    window.open(backgroundData[index].page,"_self")
+  })
+})
 
