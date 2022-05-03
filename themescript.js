@@ -243,7 +243,7 @@ function displayFinal() {
         finalMessage2.innerHTML = generalData['finalmessage2'].scorePerfect;
         var finalmess = generalData['finalmessage1'].scorePerfect;
         finalMessage1.innerHTML = `${finalmess} <span class="purple-span">${points}/${arrayLength}.</span>`
-    } else if ( points > 7) {
+    } else if ( points > 6) {
         var urlbg = dataQuizz[themeName].bgGood;
        bgfinal.style.background = 'url('+urlbg+')';
        bgfinal.style.backgroundSize = "cover";
