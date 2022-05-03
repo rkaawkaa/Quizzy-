@@ -76,7 +76,7 @@ mesQuestions.histoireQuestions = [
         c:'Charles Martel',
         d:'Louis XIV',
         correct : 'Napoléon Bonaparte',
-        texteAnswer: 'Le Code civil des Français fut promulgué le 21 mars 1804. Napoléon réussit là où tous les gouvernements avaient échoué avait lui : l’adoption d’un Code des lois civiles bien rédigé, facile à interpréter, triomphe du droit écrit sur les coutumes. Il fut le moteur de ce grand œuvre pensé et préparé par une cohorte des juristes de premier plan, auxquels il fournit les moyens de travailler.'
+        texteAnswer: 'Le Code civil des Français fut promulgué le 21 mars 1804. Napoléon réussit là où tous les gouvernements avaient échoué avant lui : l’adoption d’un Code des lois civiles bien rédigé, facile à interpréter, triomphe du droit écrit sur les coutumes. Il fut le moteur de cettee grand œuvre pensée et préparée par une cohorte des juristes de premier plan, auxquels il fournit les moyens de travailler.'
 
     },{
         question: "Qui a été le successeur au pouvoir de Joseph Staline ?",
@@ -93,7 +93,7 @@ mesQuestions.histoireQuestions = [
         c:'A la sortie d\'un congrès',
         d:'A la sortie d\'un restaurant',
         correct: 'A la sortie d\'un théatre',
-        texteAnswer: 'Abraham Lincoln, plaidant pour l\'abolition total de l\'esclavage, se retrouve être la cible de plusieurs tentatives d\'assassinat. Le soir du 14 avril 1865, au Théâtre Ford à Washington, il se fait tirer dessus à bout portant et décède. Des millions d\'américains salueront le passage du cortège funèbre pour lui rendre mémoire.'
+        texteAnswer: 'Abraham Lincoln, plaidant pour l\'abolition total de l\'esclavage, se retrouve être la cible de plusieurs tentatives d\'assassinat. Le soir du 14 avril 1865, au Théâtre Ford à Washington, il se fait tirer dessus à bout portant et décède. Des millions d\'américains salueront le passage du cortège funèbre pour lui rendre hommage.'
     }, {
         question: "Que s\'est-il passé lors de la mission américaine Apollo 1 ?",
         a: 'L\'équipage mourut lors d\'un exercice au sol suite à un incendie dans la capsule',
@@ -101,7 +101,7 @@ mesQuestions.histoireQuestions = [
         c:'La fusée explosa environ une heure après le décollage',
         d:'Rien d\'anormal',
         correct: 'L\'équipage mourut lors d\'un exercice au sol suite à un incendie dans la capsule',
-        texteAnswer: 'Le 27 janvier 1967, un incendie se déclara dans le module du commande de vaisseau dü à un court-circuit provoqué par un fil éléctrique dénudé. Cette incendie provoquera la mort des trois membres de l\'équipage.'
+        texteAnswer: 'Le 27 janvier 1967, un incendie se déclara dans le module du commande de vaisseau dû à un court-circuit provoqué par un fil éléctrique dénudé. Cette incendie provoquera la mort des trois membres de l\'équipage.'
     }, {
         question: "Qu\'est-ce que l\'holodomor ?",
         a: 'Un rituel réligieux chez les incas',
@@ -250,376 +250,376 @@ mesQuestions.philosophieQuestions = [
 
 mesQuestions.sportQuestions = [
     {
-        question: "",
-        a: '',
-        b:'',
-        c:'',
-        d:'',
-        correct : '',
-        texteAnswer: ''
+        question: "Quel est la nationalité de Usain Bolt ?",
+        a: 'Congolais',
+        b:'Jamaïcain',
+        c:'Ivoirien',
+        d:'Equatorien',
+        correct : 'Jamaïcain',
+        texteAnswer: 'Usain Bolt est un sprinteur jamaïcain, spécialiste des épreuves de sprint. Parmi les athlètes les plus titrés de l\'histoire des Jeux olympiques en sprint avec huit médailles d\'or, il est le plus titré de l\'histoire des championnats du monde avec onze victoires. Il est le premier athlète à détenir simultanément les records du monde du 100 m, 200 m et 4x100 m.'
 
     },{
-        question: "",
-        a: '',
-        b:'',
-        c:'',
-        d:'',
-        correct : '',
-        texteAnswer: ''
+        question: "Au judo, quel est le grade le plus élevé parmi ces ceintures ?",
+        a: 'Bleue',
+        b:'Orange',
+        c:'Verte',
+        d:'Jaune',
+        correct : 'Bleue',
+        texteAnswer: 'Dans l\'ordre de la moins élevée à la plus élevée, les ceintures au judo sont celles-ci: blanche, jaune, orange, verte, bleue, marron, noire puis rouge. La ceinture rouge n\'a été décernée qu\'une fois, à Jigoro Kano, le père du Judo.'
 
     }, {
-        question: "",
-        a: '',
-        b:'',
-        c:'',
-        d:'',
-        correct : '',
-        texteAnswer: ''
+        question: "Qui est le meilleur buteur de l\'histoire en ligue des champions au football?",
+        a: 'Lionel Messi',
+        b:'Pelé',
+        c:'C. Ronaldo',
+        d:'Michel Platini',
+        correct : 'C. Ronaldo',
+        texteAnswer: 'Le meilleur buteur de l\'histoire de la compétition est C.Ronaldo. Il est suivi par Lionel Messi. Ni Pelé ni Michel Platini ne font partie des 20 plus grands buteurs de cette compétition.'
 
     }, {
-        question: "",
-        a: '',
-        b:'',
-        c:'',
-        d:'',
-        correct : '',
-        texteAnswer: ''
+        question: "Quel est le joueur le plus titré de l\'histoire au tennis?",
+        a: 'Rafael Nadal',
+        b:'Novak Djokovic',
+        c:'Yannick Noah',
+        d:'Roger Federer',
+        correct : 'Rafael Nadal',
+        texteAnswer: 'Rafael Nadal, en remportant l\'open d\'Australie en 2022, devance Roger Federer et devient le joueur le plus titré de l\'histoire au tennis.'
 
     }, {
-        question: "",
-        a: '',
-        b:'',
-        c:'',
-        d:'',
-        correct : '',
-        texteAnswer: ''
+        question: "Quelle est le record du monde de lancer de javelot?",
+        a: '98,48m',
+        b:'82,14m',
+        c:'103,66m',
+        d:'112,69m',
+        correct : '98,48m',
+        texteAnswer: 'Les records du monde du lancer du javelot sont actuellement détenus par le Tchèque Jan Železný qui établit la marque de 98,48 m le 25 mai 1996 à Iéna en Allemagne.'
 
     }, {
-        question: "",
-        a: '',
-        b:'',
-        c:'',
-        d:'',
-        correct : '',
-        texteAnswer: ''
+        question: "A quel sport doit-on jouer pendant 2 mi-temps de 40 minutes ?",
+        a: 'Au rugby',
+        b:'Au football',
+        c:'Au handball',
+        d:'Au basketball',
+        correct : 'Au rugby',
+        texteAnswer: 'Le rugby est un sport collectif où deux équipes s\'affronte pendant 2 mi-temps de 40 minutes chacune.'
 
     }, {
-        question: "",
-        a: '',
-        b:'',
-        c:'',
-        d:'',
-        correct : '',
-        texteAnswer: ''
+        question: "Quelle objet dans le sport féminin ci-dessous mesure 76cm de haut ?",
+        a: 'Une haie d\'athlétisme',
+        b:'Un but de hockey sur glace',
+        c:'Une table de tennis de table',
+        d:'Une poutre de gymnastique',
+        correct : 'Une haie d\'athlétisme',
+        texteAnswer: 'Les haies d\'athlétisme chez les femmes mesurent 76cm de haut. Pour les hommes, cette hauteur monte à 91cm'
 
     }, {
-        question: "",
-        a: '',
-        b:'',
-        c:'',
-        d:'',
-        correct : '',
-        texteAnswer: ''
+        question: "De combien de joueurs est composée une équipe de water-polo?",
+        a: '5',
+        b:'6',
+        c:'7',
+        d:'8',
+        correct : '7',
+        texteAnswer: 'Le water-polo est un sport collectif aquatique opposant deux formations de sept joueurs. Il fut codifié dans le Royaume-Uni à la fin du xixe siècle et devint sport olympique en 1900 pour les hommes, et en 2000 pour les femmes.'
 
     }, {
-        question: "",
-        a: '',
-        b:'',
-        c:'',
-        d:'',
-        correct : '',
-        texteAnswer: ''
+        question: "Lequel de ces quatre noms ne fait pas partie du vocabulaire du golfeur ?",
+        a: 'Birdie',
+        b:'Albatros',
+        c:'Eagles',
+        d:'Cacatoès',
+        correct : 'Cacatoès',
+        texteAnswer: 'Seul le cacatoès n\'est pas un mot du vocabulaire du golf. Les autres représentent diverses coups techniques.'
 
     }, {
-        question: "",
-        a: '',
-        b:'',
-        c:'',
-        d:'',
-        correct : '',
-        texteAnswer: ''
+        question: "Quel art utilise un sabre en lamelles de bambou ?",
+        a: 'Kendo',
+        b:'Kyudo',
+        c:'Tae Kwon Do',
+        d:'Le Viet-vo-dao',
+        correct : 'Kendo',
+        texteAnswer: 'Le kendo ou l\'escrime au sabre était pratiqué autrefois au Japon par les samouraïs. Le kendo n\'est pas seulement un art martial mais également un sport de compétition, aujourd\'hui largement pratiqué au Japon. Le kendo ne se résume toutefois pas à un simple ensemble de techniques et de tactiques du combat au sabre. Il comprend également un volet spirituel. Le kendo permet à ses pratiquants de développer leur force de caractère et leur détermination.'
 
     }
 ]  
 
 mesQuestions.litteratureQuestions = [
     {
-        question: "",
-        a: '',
-        b:'',
-        c:'',
-        d:'',
-        correct : '',
-        texteAnswer: ''
+        question: "Qui a écrit \"crime et Châtiment\",",
+        a: 'Fyodor Dostoevsky',
+        b:'Léon Tolstoï',
+        c:'Milan Kundera',
+        d:'Victor Hugo',
+        correct : 'Fyodor Dostoevsky',
+        texteAnswer: 'Crime et Châtiment est un roman de l’écrivain russe Fiodor Dostoïevski en 1866. Le roman dépeint l\'assassinat d’une vieille prêteuse sur gage et de sa sœur par Rodion Raskolnikov, ancien étudiant de Saint-Pétersbourg tombé dans la pauvreté, et ses conséquences émotionnelles, mentales et physiques sur le meurtrier.'
 
     },{
-        question: "",
-        a: '',
-        b:'',
-        c:'',
-        d:'',
-        correct : '',
-        texteAnswer: ''
+        question: "A quel courant littéraire appartient Albert Camus?",
+        a: 'Les Lumières',
+        b:'Le classicisme',
+        c:'L\'absurde',
+        d:'L\'humanisme',
+        correct : 'L\'absurde',
+        texteAnswer: 'L\'oeuvre s\'inscrit dans le mouvement littéraire de l\'absurde. Albert Camus a inventé une notion qu\'il appelle philosophie de l\'absurde.'
 
     }, {
-        question: "",
-        a: '',
-        b:'',
-        c:'',
-        d:'',
-        correct : '',
-        texteAnswer: ''
+        question: "Comment s\'appelle la pièce de théâtre de Jean-Paul Sartre qui se termine par la célèbre citation \"L\'enfer c\'est les autres\"?",
+        a: 'La Nausée',
+        b:'L\'être et le néant',
+        c:'Huis clos',
+        d:'Phèdre',
+        correct : 'Huis clos',
+        texteAnswer: 'Huis clos est une pièce de théâtre en un acte de Jean-Paul Sartre, rédigée à la fin de l\'année 1943 et représentée pour la première fois le 27 mai 1944 au théâtre du Vieux-Colombier, à Paris1. Cette pièce est symbolique de l\'existentialisme, mouvement littéraire du début du xxe siècle où l\'être humain est défini par ses actes. Sartre pensait avoir écrit une pièce drôle.'
 
     }, {
-        question: "",
-        a: '',
-        b:'',
-        c:'',
-        d:'',
-        correct : '',
-        texteAnswer: ''
+        question: "Quel est le genre littéraire de prédilection de Stefan Zweig?",
+        a: 'Le théâtre',
+        b:'La poésie',
+        c:'Le roman',
+        d:'La nouvelle',
+        correct : 'La nouvelle',
+        texteAnswer: 'Stefan Zweig est un écrivain, dramaturge, journaliste et biographe autrichien. Son genre de prédilection est la nouvelle, dont certaines sont extremement connues comme \"Le joueur d\'échecs \".'
 
     }, {
-        question: "",
-        a: '',
-        b:'',
-        c:'',
-        d:'',
-        correct : '',
-        texteAnswer: ''
+        question: "Quelle est l'arme du crime la plus souvent utilisée par les coupables dans les romans d\'Agatha Christie ?",
+        a: 'La dague',
+        b:'Le poison',
+        c:'Le pistolet',
+        d:'La strangulation',
+        correct : 'Le poison',
+        texteAnswer: 'Agatha Christie est une femme de lettres britannique, auteur de nombreux romans policiers. Elle fait partie des écrivains les plus connus au monde et elle est considérée comme l\'auteur le plus lu de l\'histoire, c\'est aussi de très loin l\'auteur le plus traduit dans le monde. Dans la plupart de ses romans, les criminelles utilisent le poison pour tuer.'
 
     }, {
-        question: "",
-        a: '',
-        b:'',
-        c:'',
-        d:'',
-        correct : '',
-        texteAnswer: ''
+        question: "Quelle est la différence entre un polar et un thriller ?",
+        a: 'La présence de crimes',
+        b:'Le portrait psychologique des personnages',
+        c:'La présence d\'une enquête de police',
+        d:'Le déroulement dans un seul lieu',
+        correct : 'La présence d\'une enquête de police',
+        texteAnswer: 'Ce qui distingue le polar du thriller est principalement l\'intrigue. Alors que le polar se base sur l\'investigation des forces de police ou d\'un détective privée, le thriller tient en haleine les lecteurs en montrant progressivement ô combien l\'ennemi est dangereux pour le monde.'
 
     }, {
-        question: "",
-        a: '',
-        b:'',
-        c:'',
-        d:'',
-        correct : '',
-        texteAnswer: ''
+        question: "Quelle est le prénom de Madame Bovary, livre de Gustave Flaubert ?",
+        a: 'Sarah',
+        b:'Marie',
+        c:'Emma',
+        d:'Eglantine',
+        correct : 'Emma',
+        texteAnswer: 'adame Bovary, est un roman de Gustave Flaubert paru en 1857. L\'histoire est celle de l\'épouse d\'un médecin de province, Emma Bovary, qui lie des relations adultères et vit au-dessus de ses moyens, essayant ainsi d\'éviter l’ennui, la banalité et la médiocrité de la vie provinciale.'
 
     }, {
-        question: "",
-        a: '',
-        b:'',
-        c:'',
-        d:'',
-        correct : '',
-        texteAnswer: ''
+        question: "Où se déroule l'intrigue du roman \"Les Misérables\" ?",
+        a: 'Londres',
+        b:'Paris',
+        c:'Berlin',
+        d:'Rome',
+        correct : 'Paris',
+        texteAnswer: 'Les Misérables est un roman de Victor Hugo publié en 1862,Il décrit la vie de pauvres gens dans Paris et la France provinciale du premier tiers du xixe siècle, l’auteur s\'attachant plus particulièrement au destin du bagnard Jean Valjean ; il a donné lieu à de nombreuses adaptations, au cinéma et sur d’autres supports.'
 
     }, {
-        question: "",
-        a: '',
-        b:'',
-        c:'',
-        d:'',
-        correct : '',
-        texteAnswer: ''
+        question: "Quelle période est décrite dans le roman \"Gatsby Le Magnifique\" de Francis Scott Fitzgerald ?",
+        a: 'Les années 1940',
+        b:'Les années 1920',
+        c:'Les années 1850',
+        d:'Les années 1900',
+        correct : 'Les années 1920',
+        texteAnswer: 'Gatsby le Magnifique est un roman de l\'écrivain américain F. Scott Fitzgerald publié en 1925. L\'histoire se déroule à New York dans les années 1920. Il est souvent décrit comme le reflet des années folles dans la littérature américaine.'
 
     }, {
-        question: "",
-        a: '',
-        b:'',
-        c:'',
-        d:'',
-        correct : '',
-        texteAnswer: ''
+        question: "Comment s\'appelle le personnage qui symbolise la surveillance et le contrôle des populations dans le roman \"1984\" de George Orwell ?",
+        a: 'Big Father',
+        b:'God Father',
+        c:'Big Brother',
+        d:'The eyes man',
+        correct : 'Big Brother',
+        texteAnswer: 'Il décrit une Grande-Bretagne trente ans après une guerre nucléaire entre l\'Est et l\'Ouest censée avoir eu lieu dans les années 1950 et où s\'est instauré un régime de type totalitaire fortement inspiré à la fois de certains éléments du stalinisme et du nazisme. La liberté d\'expression n’existe plus. Toutes les pensées sont minutieusement surveillées et d’immenses affiches sont placardées dans les rues, indiquant à tous que « Big Brother vous regarde »'
 
     }
 ]  
 
 mesQuestions.sciencesQuestions = [
     {
-        question: "",
-        a: '',
-        b:'',
-        c:'',
-        d:'',
-        correct : '',
-        texteAnswer: ''
+        question: "Quelle est l'unité de mesure de la tension éléctrique ?",
+        a: 'L\'ampère',
+        b:'Le volt',
+        c:'Le lumens',
+        d:'Le watt',
+        correct : 'Le volt',
+        texteAnswer: 'L\'ampère désigne l\'intensité éléctrique, le lumens le flux lumineux et le watt est une unité de puissance. Le volt, lui exprime la tension éléctrique.'
 
     },{
-        question: "",
-        a: '',
-        b:'',
-        c:'',
-        d:'',
-        correct : '',
-        texteAnswer: ''
+        question: "Dans quel domaine des sciences s\'est surtout exprimé Nikola Tesla?",
+        a: 'La chimie',
+        b:'L\'énergie éléctrique',
+        c:'Le nucléaire',
+        d:'La mécanique',
+        correct : 'L\'énergie éléctrique',
+        texteAnswer: 'Nikola Tesla était un savant fou. Ses travaux les plus connus et les plus largement diffusés portent sur l’énergie électrique. Il a mis au point les premiers alternateurs permettant la naissance des réseaux électriques de distribution en courant alternatif, dont il est l’un des pionniers. '
 
     }, {
-        question: "",
-        a: '',
-        b:'',
-        c:'',
-        d:'',
-        correct : '',
-        texteAnswer: ''
+        question: "Quel est l'élement de l'atome qui est chargé positivement ?",
+        a: 'L\'éléctron',
+        b:'Le proton',
+        c:'Le neutron',
+        d:'Le carbone',
+        correct : 'Le proton',
+        texteAnswer: 'Les protons, situés dans le noyau de l\'atome sont chargés positivement. Le neutron n\'est pas chargé, l\'éléctron est chargé négativement et le carbone est simplement un élement chimique parmi pleins d\'autres.'
 
     }, {
-        question: "",
-        a: '',
-        b:'',
-        c:'',
-        d:'',
-        correct : '',
-        texteAnswer: ''
+        question: "Quelle science s\'intéresse à l\'étude de la vie passée sous formes de fossiles?",
+        a: 'La paléontologie',
+        b:'La géodynamique',
+        c:'L\'hydrogéologie',
+        d:'Aucun de tous ceux-là',
+        correct : 'La paléontologie',
+        texteAnswer: 'La paléontologie est l\'étude de la vie passée au travers des êtres et organismes fossilisés ayant existé au cours des temps géologiques. L\'ensemble de paléontologie comporte entre 5 et 6 millions de spécimens et de lames de microfossiles dont 4 millions de lots d\'invertébrés et 450 000 de vertébrés.'
 
     }, {
-        question: "",
-        a: '',
-        b:'',
-        c:'',
-        d:'',
-        correct : '',
-        texteAnswer: ''
+        question: "Qu'est-ce que la rotule ?",
+        a: 'Un os',
+        b:'Un muscle',
+        c:'Un vertèbre',
+        d:'Un tendon',
+        correct : 'Un os',
+        texteAnswer: 'La rotule est l\'un des trois os qui constituent le genou. Il s\'agit d\'une structure ronde, située sur la partie antérieure du genou. Son rôle est capital car elle permet l\'extension du genou.'
 
     }, {
-        question: "",
-        a: '',
-        b:'',
-        c:'',
-        d:'',
-        correct : '',
-        texteAnswer: ''
+        question: "Quelle est la somme des angles d’un triangle ?",
+        a: '90°',
+        b:'180°',
+        c:'360°',
+        d:'500°',
+        correct : '180°',
+        texteAnswer: 'En géométrie euclidienne, la somme des angles d\'un triangle est égale à l\'angle plat, soit 180 degrés ou π radians. Ce résultat est connu et démontré par Euclide.'
 
     }, {
-        question: "",
-        a: '',
-        b:'',
-        c:'',
-        d:'',
-        correct : '',
-        texteAnswer: ''
+        question: "À quel inventeur doit-on la première calculatrice ?",
+        a: 'Blaise Pascal',
+        b:'Henri Becquerel',
+        c:'Rudolf Diesel',
+        d:'Thomas Edison',
+        correct : 'Blaise Pascal',
+        texteAnswer: 'C’est en 1645, après trois ans de recherche et cinquante prototypes, que Blaise Pascal présente sa première machine. Il construit ensuite une vingtaine de Pascalines dans la décennie suivante et les perfectionne à chaque fois.'
 
     }, {
-        question: "",
-        a: '',
-        b:'',
-        c:'',
-        d:'',
-        correct : '',
-        texteAnswer: ''
+        question: "Combien font 122 x 12 ?",
+        a: '1212',
+        b:'1464',
+        c:'1636',
+        d:'2444',
+        correct : '1464',
+        texteAnswer: '122 * 12 = 120 * 10 + 2 * 122 = 1220 + 264 = 1464'
 
     }, {
-        question: "",
-        a: '',
-        b:'',
-        c:'',
-        d:'',
-        correct : '',
-        texteAnswer: ''
+        question: "Quelles sont les deux plus grosses planètes du système solaire ?",
+        a: 'Jupiter et Vénus',
+        b:'Pluton et Uranus',
+        c:'Mars et Mercure',
+        d:'Jupiter et Saturne',
+        correct : 'Jupiter et Saturne',
+        texteAnswer: 'Jupiter est une planète géante gazeuse du système solaire. Elle est 318 fois plus massive que la Terre et environ 1300 fois plus volumineuse qu\'elle. Saturne elle, est 95 fois plus massive que la Terre et 760 plus volumineuse. Uranus et Neptune sont les 3e et 4e plus grosses planètes du système solaire. La Terre vient en 5e position.'
 
     }, {
-        question: "",
-        a: '',
-        b:'',
-        c:'',
-        d:'',
-        correct : '',
-        texteAnswer: ''
+        question: "Qu\'est que le myocarde ?",
+        a: 'Un organe chez les insectes.',
+        b:'Un élement du sang humain',
+        c:'Une maladie',
+        d:'Un tissu musculaire du coeur',
+        correct : 'Un tissu musculaire du coeur',
+        texteAnswer: 'Le myocarde est le tissu musculaire (myo-, muscle) du cœur (-carde). C\'est un muscle épais et creux à contraction rythmique contrôlée par le système nerveux végétatif (involontaire/autonome).'
 
     }
 ]  
 
 mesQuestions.artQuestions = [
     {
-        question: "",
-        a: '',
-        b:'',
-        c:'',
-        d:'',
-        correct : '',
-        texteAnswer: ''
+        question: "Quel film n'a pas réalisé Stanley Kubrick ?",
+        a: 'Orange mécaniuqe',
+        b:'Shining',
+        c:'The Truman Show',
+        d:'Full Metal Jacket',
+        correct : 'The Truman Show',
+        texteAnswer: 'The Truman Show est un film réalisé par Peter Weir. Il  raconte la vie d\'un homme, Truman Burbank, vedette à son insu d\'un spectacle de télé-réalité. Depuis sa naissance, son monde n\'est qu\'un gigantesque plateau de tournage et tous ceux qui l\'entourent sont des acteurs.'
 
     },{
-        question: "",
-        a: '',
-        b:'',
-        c:'',
-        d:'',
-        correct : '',
-        texteAnswer: ''
+        question: "A quel courant artistique appartient le peintre Réné Magritte?",
+        a: 'Impressionnisme',
+        b:'Surréalisme',
+        c:'Romantisme',
+        d:'Réalisme',
+        correct : 'Surréalisme',
+        texteAnswer: 'Réné Magritte est un peintre surréaliste belge. Son oeuvre la plus connue est un tableau représentant une pipe en dessous de laquelle il y est inscrit \"Ceci n\'est pas une pipe \"'
 
     }, {
-        question: "",
-        a: '',
-        b:'',
-        c:'',
-        d:'',
-        correct : '',
-        texteAnswer: ''
+        question: "A quel célèbre compositeur doit-on la musique du ballet \"Le lac des cygnes\" ?",
+        a: 'Igor Stravinsky',
+        b:'Jean-Baptiste Lully',
+        c:'Reynaldo Hahn',
+        d:'Piotr ilitch Tchaïkovski',
+        correct : 'Piotr ilitch Tchaïkovski',
+        texteAnswer: 'Le Lac des cygnes est un ballet en quatre actes sur une musique de Piotr Ilitch Tchaïkovski et un livret de Vladimir Begitchev inspiré d\'une légende allemande.'
 
     }, {
-        question: "",
-        a: '',
-        b:'',
-        c:'',
-        d:'',
-        correct : '',
-        texteAnswer: ''
+        question: "Quand a eu lieu la première exposition universelle de Paris ?",
+        a: '1842',
+        b:'1905',
+        c:'1889',
+        d:'1812',
+        correct : '1889',
+        texteAnswer: 'L\'Exposition universelle de Paris de 1889 est la dixième Exposition universelle organisée. Elle se tient du 5 mai au 31 octobre 1889 . Son thème est la Révolution française, dans le cadre du centenaire de cet événement. C\'est à l\'occasion de cette Exposition commémorative que la tour Eiffel est construite.'
 
     }, {
-        question: "",
-        a: '',
-        b:'',
-        c:'',
-        d:'',
-        correct : '',
-        texteAnswer: ''
+        question: "Quel est le nom du festival de cinéma qui se tient à Venise chaque année ?",
+        a: 'Festival dei due mondi',
+        b:'Umbria Jazz ',
+        c:'il Carnevale di Venezia',
+        d:'La Mostra',
+        correct : 'La Mostra',
+        texteAnswer: 'La Mostra de Venise est un festival de cinéma qui se déroule annuellement en septembre, dans l\'historique Palais du cinéma, sur le lungomare Marconi, au Lido de Venise. Créée en 1932, la manifestation s\'inscrit dans le cadre de l\'organisation plus vaste de la Biennale de Venise, festival culturel d\'art contemporain dont elle constitue la section cinéma. '
 
     }, {
-        question: "",
-        a: '',
-        b:'',
-        c:'',
-        d:'',
-        correct : '',
-        texteAnswer: ''
+        question: "Quel personnage réel ou fictif a été le plus souvent représenté à l'écran ?",
+        a: 'Sherlock Holmes',
+        b:'Napoléon',
+        c:'Dracula',
+        d:'Jesus Christ',
+        correct : 'Sherlock Holmes',
+        texteAnswer: 'Sherlock Holmes détient le record mondial du personnage littéraire le plus représenté dans l\'histoire du cinéma et de la télévision: plus de 75 acteurs se sont glissés dans la peau du célèbre détective.'
 
     }, {
-        question: "",
-        a: '',
-        b:'',
-        c:'',
-        d:'',
-        correct : '',
-        texteAnswer: ''
+        question: "Qui a composé la musique du film \"Il était une fois dans l'ouest?\"",
+        a: 'Hans Zimmer',
+        b:'Ennio Morricone',
+        c:'Francis Lai',
+        d:'James Horner',
+        correct : 'Ennio Morricone',
+        texteAnswer: 'Il était une fois dans l\'Ouest est un album de Ennio Morricone, sorti en octobre 1969, comme bande originale du film Il était une fois dans l\'Ouest.'
 
     }, {
-        question: "",
-        a: '',
-        b:'',
-        c:'',
-        d:'',
-        correct : '',
-        texteAnswer: ''
+        question: "A quel style architecturale appartient la cathédrale de Strasbourg ?",
+        a: 'Gothique',
+        b:'Baroque',
+        c:'Classique',
+        d:'Roman',
+        correct : 'Gothique',
+        texteAnswer: 'La cathédrale Notre-Dame de Strasbourg  est une cathédrale gothique fondée en 1015 et élevée à partir de 1220. Les travaux s\'achèvent en 1439'
 
     }, {
-        question: "",
-        a: '',
-        b:'',
-        c:'',
-        d:'',
-        correct : '',
-        texteAnswer: ''
+        question: "Quel personnage la Vénus de Milo répresente-t-elle ?",
+        a: 'La vierge Marie',
+        b:'La déesse Aphrodite',
+        c:'La déesse Adéona',
+        d:'Cléopatre',
+        correct : 'La déesse Aphrodite',
+        texteAnswer: 'La Vénus de Milo est une statue en marbre de Paros qui représente la déesse Aphrodite. Chef d\'oeuvre de l\'époque hellénistique, c\'est l\'une des plus célèbres sculptures grecques.'
 
     }, {
-        question: "",
-        a: '',
-        b:'',
-        c:'',
-        d:'',
-        correct : '',
-        texteAnswer: ''
+        question: "Dans quelle ville prends place la photographie du \"Baiser de la ville\"?",
+        a: 'Rome',
+        b:'Venise',
+        c:'Pragues',
+        d:'Paris',
+        correct : 'Paris',
+        texteAnswer: 'Le Baiser de l\'hôtel de ville est une célèbre photographie en noir et blanc du photographe français Robert Doisneau. Prise en 1950 à proximité de l\'hôtel de ville de Paris, elle représente un homme et une femme qui s\'embrassent tout en marchant sur un trottoir encombré de passants, devant une terrasse de café.'
 
     }
 ]  
