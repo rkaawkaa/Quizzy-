@@ -221,7 +221,10 @@ function checkQ(questionNumber) {
 }
 
 function displayFinal() {
+
     themeBox.innerHTML="";
+    themeBox.classList.remove('goodAnswer')
+    themeBox.classList.remove('badAnswer')
     themeBox.innerHTML= ` <h2 class="tme-finalmessage tme-finalmessage1"></h2>
     <h2 class="tme-finalmessage tme-finalmessage2"></h2>
     <div class="tme-finalimage"></div>`
