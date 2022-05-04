@@ -220,3 +220,9 @@ cards.forEach((card, index) =>  {
   })
 })
 
+
+/*Aller en bas sur le click de l'image */
+imgRight.addEventListener('click',() => {
+  const allTheme = document.getElementById('all-theme');
+  allTheme.scrollIntoView();
+})
