@@ -1018,7 +1018,19 @@ input[type='radio']:checked:after {
         font-size: 60%;
     }
     .tme-box {
-        
-       height: 450px;
+
+       height: 400px;
+    }
+    .tme-box .tme-box-header {
+        padding: 5px 15px;
+    }
+    .tme-box .tme-questions {
+        padding: 5px 15px;
+    }
+    .tme-correct, .tme-finalmessage {
+        margin-top: 1.5rem;
+    }
+    .tme-correct-text {
+        font-size: 1.5rem;
     }
 }
